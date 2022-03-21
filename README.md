@@ -69,10 +69,8 @@ void writeData(int rowN, int colN, String xdata, String &table); // update cell 
 String readData(int rowN, int colN, String table); // read cell data in a table
 int countRows(String table); // count the number of rows in a table
 int countCols(String row); // count the number of columns in a row
-void updateString(int index, String data, String& string); //rewrite a portion of a string from a desired index
 String generateEmptyRow(int numCols); //generate a right-sized empty row
 void appendRow(String row, String& table); // append a row to table
-String repeatString(String string, uint8_t ntimes) // repeat a string
 ```
 
 *Happy coding!!!*
