@@ -1,15 +1,16 @@
-# Table Manager, an Arduino Library for csv table manipuation on strings made by Divino-Fire, https://github.com/Divino-Fire/
+# Table Manager
 
 ## Description
-Easily manage your csv styled String table
+- An Arduino Library for csv table manipuation on strings made by Divino-Fire, https://github.com/Divino-Fire/
+- Easily manage your csv styled String table
+
+
 
 ## practical usage
-read a small csv styled table from sd card to a String variable
-manipulate the table using this libray
-dump the table back into the sd card
+read a small csv styled table from sd card to a String variable  manipulate the table using this libray  dump the table back into the sd card
 
 ## note:
-This library does not focuses on reading or writing to an sd card, for that, see arduino examples under **SD** in arduino.
+This library does not focuses on reading or writing to an sd card, for that, see arduino examples under **SD**
 
 ## installation
 Download this project folder into arduino/libaries folder.
