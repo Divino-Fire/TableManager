@@ -1,7 +1,7 @@
 # Table Manager
 
 ## Description
-- An Arduino Library for csv table manipuation on strings made by Divino-Fire, https://github.com/Divino-Fire/
+- An Arduino Library for csv table manipuation on strings made by Divino Fire, https://github.com//divinofire
 - Easily manage your csv styled String table
 
 
@@ -58,7 +58,7 @@ void loop() {
 ```
 
 ## Quirks:
- 1. All cells must be evenly spaced - To minimize the possibility of error,use generateEmptyRow, appendRow and writeData functions to input values to table rather than hard-coding them using appendRow only.
+ 1. All cells must be evenly spaced - To minimize the possibility of error,use generateEmptyRow(), appendRow() and writeData() functions to input values to table rather than hard-coding them using appendRow only.
  2. The maximum cell size is 20-1 (19) characters - you can change this value in TableManager.h
  3. row and column indices begin from zero.
  
